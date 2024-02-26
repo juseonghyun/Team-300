@@ -1,5 +1,4 @@
-Teem 300
-Master Branch 내용
+Master Branch 기본 틀
 
 - imageView, Activitiy 각 번호
   
