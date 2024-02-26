@@ -54,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="58dp">
+                app:cardCornerRadius="60dp">
 
                 <ImageView
                     android:id="@+id/iv_1"
@@ -71,7 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="50dp">
+                app:cardCornerRadius="60dp">
 
                 <ImageView
                     android:id="@+id/iv_2"
@@ -96,7 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="58dp">
+                app:cardCornerRadius="60dp">
 
                 <ImageView
                     android:id="@+id/iv_3"
@@ -113,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="50dp">
+                app:cardCornerRadius="60dp">
 
                 <ImageView
                     android:id="@+id/iv_4"
