@@ -118,8 +118,8 @@
                     android:id="@+id/iv_4"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:scaleType="fitXY"
-                    android:src="@mipmap/ic_launcher" />
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/lee_huigwang" />
             </androidx.cardview.widget.CardView>
         </LinearLayout>
 
