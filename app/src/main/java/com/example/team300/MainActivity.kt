@@ -15,18 +15,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
-
         // 뷰바인딩 관련 로직
-        mainBinding = ActivityMainBinding.inflate(layoutInflater)
+        mainBinding = ActivityMainBinding.inflate(layoutInflater).apply {
+            iv1.scaleY = -1f
+        }
         setContentView(binding.root)
-
 
         binding.iv1.setOnClickListener {
             val intent = Intent(this, ProfileActivity1::class.java)
             startActivity(intent)
-
-
-
         }
 
         binding.iv2.setOnClickListener{

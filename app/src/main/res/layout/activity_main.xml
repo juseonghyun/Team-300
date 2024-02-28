@@ -54,10 +54,10 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="60dp"
-                android:scaleY="-1">
+                android:scaleY="-1"
+                app:cardCornerRadius="60dp">
 
-                <ImageView
+                <androidx.appcompat.widget.AppCompatImageView
                     android:id="@+id/iv_1"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
