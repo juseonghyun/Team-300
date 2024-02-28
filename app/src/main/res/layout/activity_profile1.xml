@@ -62,6 +62,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/introtextView"
+        android:src="@drawable/camp_1_linkedinbtn"
         tools:srcCompat="@drawable/camp_1_linkedinbtn" />
 
     <Button
