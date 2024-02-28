@@ -49,19 +49,20 @@
 
             <!-- 김찬교 -->
             <androidx.cardview.widget.CardView
+                android:id="@+id/mainCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardCornerRadius="60dp">
+                app:cardCornerRadius="60dp"
+                android:scaleY="-1">
 
                 <ImageView
                     android:id="@+id/iv_1"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/bettor_profile"
-                    android:scaleY="-1"/>
+                    android:src="@drawable/bettor_profile" />
 
             </androidx.cardview.widget.CardView>
 
