@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".ProfileActivity1">
 
+    <androidx.cardview.widget.CardView
+    android:id="@+id/profileCardView"
+    android:layout_width="160dp"
+    android:layout_height="160dp"
+    android:layout_marginTop="40dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:scaleY="-1"
+            app:srcCompat="@drawable/bettor_profile"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/nametextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="김찬교"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profileCardView" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="&quot;성장하는 Mobile App Developer&quot;"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nametextView" />
+
+    <ImageButton
+        android:id="@+id/linkedinImageButton"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="408dp"
+        tools:srcCompat="@drawable/camp_1_linkedinbtn" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
