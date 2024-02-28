@@ -11,6 +11,7 @@
     android:layout_width="160dp"
     android:layout_height="160dp"
     android:layout_marginTop="40dp"
+        android:scaleY= "-1"
     app:cardCornerRadius="12dp"
     app:cardElevation="0dp"
     app:layout_constraintEnd_toEndOf="parent"
@@ -18,10 +19,10 @@
     app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/cardview_appcompatImageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:scaleY="-1"
             app:srcCompat="@drawable/bettor_profile"/>
 
     </androidx.cardview.widget.CardView>
@@ -40,7 +41,7 @@
         app:layout_constraintTop_toBottomOf="@+id/profileCardView" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/introtextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -55,9 +56,22 @@
         android:id="@+id/linkedinImageButton"
         android:layout_width="280dp"
         android:layout_height="100dp"
+        android:layout_marginTop="70dp"
         android:scaleType="fitXY"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="408dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introtextView"
         tools:srcCompat="@drawable/camp_1_linkedinbtn" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="BACK"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linkedinImageButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
