@@ -24,5 +24,6 @@ class ProfileActivity3 : AppCompatActivity() {
             setContentView(root)
         }
 
+
     }
 }
