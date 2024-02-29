@@ -30,7 +30,7 @@ class ProfileActivity2 : AppCompatActivity() {
             }
 
             ivSeonghyun.setOnClickListener {
-                Toast.makeText(applicationContext, "찢어진 주성현..", Toast.LENGTH_SHORT).show()
+                Toast.makeText(applicationContext, "찢어진 주성현...", Toast.LENGTH_SHORT).show()
             }
 
             setContentView(root)
